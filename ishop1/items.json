@@ -1,0 +1,7 @@
+[
+    {"name":"Хлопковый сатин", "code":1, "price":"39 рублей за метр", "url":"https://static.insales-cdn.com/images/products/1/6130/301930482/2020-03-15_15-07-14.jpg","rest":"73 метра" },
+    {"name":"Бархат портьерный", "code":2, "price":"35 рублей за метр", "url":"https://decobay.by/image/product/23992/484191/i-528x350-6yyjpg.jpg","rest":"112 метров"},
+    {"name":"Шелк-крепдешин", "code":3, "price":"77 рублей за метр", "url":"https://silk-silk.ru/upload/iblock/f63/9kicr0eaptuyvl7nvf7vvaysoq5vgcd5.jpg","rest":"45 метров"},
+    {"name":"Лен умягченнный", "code":4, "price":"53 рубля за метр", "url":"https://decobay.by/image/product/17508/464640/i-528x350-vodajpg.jpg","rest":"43 метра"},
+    {"name":"Штапель вискозный", "code":5, "price":"66 рублей за метр", "url":"https://cs1.livemaster.ru/storage/82/98/c545799b5eaf68a20d0285bffdbg--materialy-dlya-tvorchestva-shtapelnaya-viskoza-plastichnaya-m.jpg","rest":"52 метра"}
+]
