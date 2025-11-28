@@ -1,7 +1,6 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom';
 
-// ИСПРАВЛЕННЫЕ ПУТИ: добавляем ./components/ перед названием файлов
 import DoubleButton from './components/DoubleButton';
 import withRainbowFrame from './components/withRainbowFrame';
 
@@ -13,14 +12,12 @@ class App extends React.Component {
 
   render() {
     let colors = ['red', 'orange', 'yellow', 'green', '#00BFFF', 'blue', 'purple'];
-    
-    // Создаем компонент с рамками
+
     let FramedDoubleButton = withRainbowFrame(colors)(DoubleButton);
 
     return (
       <div style={{ padding: '20px' }}>
-        
-        {/* Обычный DoubleButton */}
+      
         <div style={{ marginBottom: '30px' }}>
           <DoubleButton 
             caption1="однажды" 
@@ -31,7 +28,6 @@ class App extends React.Component {
           </DoubleButton>
         </div>
 
-        {/* DoubleButton внутри рамок */}
         <div>
           <FramedDoubleButton 
             caption1="я из лесу" 
@@ -47,5 +43,4 @@ class App extends React.Component {
   }
 }
 
-// Запускаем отрисовку в div id="container"
 ReactDOM.render(<App />, document.getElementById('container'));
